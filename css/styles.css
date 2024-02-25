@@ -1,0 +1,51 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #ffc8dd;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #590d22;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ffb3c1;
+    color: #000;
+    padding: 8px 16px;
+    border: 3px ridge;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+ 
+}
+
+#button-1 {
+    font-size: 8px;
+}
+
+#button-start {
+    display: inline-block;
+}
+
+#button-2,
+#button-1 {
+    display: none;
+}
+
+#heart-image {
+    display: none;
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
